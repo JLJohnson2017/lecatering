@@ -1,0 +1,225 @@
+body{
+  font-family: "Times New Roman", Georgia, Serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+hr{
+  color: silver;
+  clear: both;
+  border: none;
+  border-bottom: solid .5px;
+  margin: 80px 0px 80px 0px;
+
+}
+
+/** NAV Bar **/
+
+
+nav{
+  border: none;
+  box-shadow: 0 5px 5px silver;  /** Come back and fix this after adjusting photo below **/
+  display: flex;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 10px;
+  position: relative;
+}
+
+nav .home-btn{
+margin: 0;
+padding: 8px 16px;
+}
+
+nav .home{  /** Gourmet au Catering **/
+  text-decoration: none;
+  color: inherit;
+  font-family: "Playfair Display";
+  letter-spacing: 4px;
+  padding: 8px 16px;
+  margin: auto;
+}
+nav .nav-btn{ /** div - About/menu/contact **/
+  text-decoration: none;
+  color: inherit;
+  font-family: "Playfair Display";
+  letter-spacing: 4px;
+  padding: 8px 16px;
+  margin: auto;
+  position: absolute;
+  right: 16px;
+}
+
+
+nav a{
+  text-decoration: none;
+  color: inherit;
+  margin: 0 20px;
+
+
+}
+/** end of NAV Bar **/
+
+
+
+/** Showcase **/
+.showcase{
+  background-image: url(../img/showcase.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 85%;
+  margin: auto;
+}
+
+.showcase h1{
+  position: relative;
+  top: 720px;
+  left: 25px;
+  color: #f4f4f4;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+/** END OF Showcase **/
+
+/** Main section **/
+main {
+  width: 60%;
+  margin: auto;
+}
+
+
+/** About-catering section **/
+.pastry{
+width: 40%;
+margin: 80px 0;
+padding: 0 40px;
+float: left;
+box-sizing: border-box;
+}
+
+.about-catering{
+  float: right;
+  width: 60%;
+  margin: 80px 0;
+  padding: 0 40px;
+  box-sizing: border-box;
+
+}
+
+.about-catering h1{
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.about-catering h2{
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.about-catering p{
+  line-height: 1.7em;
+}
+
+.history-2{
+  color: gray;
+}
+/** End Of Main section **/
+
+/** Menu section **/
+
+.menu h1{
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 30px;
+
+}
+
+.menu h2{
+  font-size: 20px;
+  font-weight: normal;
+}
+.menu p{
+  padding-bottom: 30px;
+  color: gray;
+  margin-bottom: 25px;
+
+}
+
+.items{
+  float: left;
+
+}
+
+.appetizer{
+  width: 45%;
+  float:right;
+  margin-bottom: 80px;
+
+}
+
+/** End of Menu section **/
+
+/** Contact section **/
+
+.contact h1{
+  font-size: 40px;
+  margin-bottom: 60px;
+  font-weight: normal;
+}
+
+.address
+{
+  color: #607d8b;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 25px 0;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: solid silver 1px;
+  height: 65px;
+}
+
+button{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border: none;
+    height: 40px;
+    width: 160px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 16px;
+}
+
+/** End of Contact section **/
+
+/** Footer section **/
+footer{
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+
+.button:hover{
+  background-color: gray;
+  padding: 10px 8px;
+  color: white;
+}
